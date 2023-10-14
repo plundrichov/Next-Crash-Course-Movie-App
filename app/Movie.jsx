@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Movie({ id, title, poster, year, runtime }) {
+export default function Movie({ title, poster, year }) {
   const titleFormatted = title.replaceAll(" ", "-");
 
   return (

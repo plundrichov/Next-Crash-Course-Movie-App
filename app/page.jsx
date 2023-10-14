@@ -15,7 +15,6 @@ export default async function Home() {
         {data.map((movie) => (
           <Movie
             key={movie.id}
-            id={movie.id}
             title={movie.Title}
             poster={movie.Poster}
             year={movie.Year}
