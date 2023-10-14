@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+jspm_packages
+# production
+/out
+/build
+/.next
+/.next-export
+.node_repl_history
+# misc
+.DS_Store
+npm-debug.log*
+# optional npm cache directory
+.npm
+# logs
+logs
+*.log
+npm-debug.log*
+# runtime data
+pids
+*.pid
+*.seed
